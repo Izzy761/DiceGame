@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="40891e31-63e6-437a-9051-b417788f47b5" ChangeDateTime="05/26/2019 05:24:23">
+    <Property Name="ElementName" Value="[dbo].[PlayerHistory].[Wins]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[PlayerHistory]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Point" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="bf18f5b1-12bd-4139-bf74-73d232f3fb6a" ChangeDateTime="05/26/2019 05:25:32">
+    <Property Name="ElementName" Value="[dbo].[PlayerHistory].[IsActive]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[PlayerHistory]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="DateTimeEntered" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="2771e0a3-2c9e-4a45-ac4b-7b11e1d91a0e" ChangeDateTime="05/26/2019 05:26:18">
+    <Property Name="ElementName" Value="[dbo].[PlayerHistory].[DateTimeEntered]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[PlayerHistory]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Win" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="9d9c1ff7-430f-4a1d-bd07-16a1280c7d9c" ChangeDateTime="05/26/2019 06:08:46">
+    <Property Name="ElementName" Value="[dbo].[PlayerHistory].[Point]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[PlayerHistory]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Roll" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="1686571b-933b-4ffa-92c7-ddf8f2b95295" ChangeDateTime="05/26/2019 06:09:01">
+    <Property Name="ElementName" Value="[dbo].[PlayerHistory].[Lose]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[PlayerHistory]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Point" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="2172a1ba-97b3-41b1-8c64-cf8ff72c256d" ChangeDateTime="05/26/2019 06:09:09">
+    <Property Name="ElementName" Value="[dbo].[PlayerHistory].[Win]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[PlayerHistory]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Result" />
+  </Operation>
+</Operations>
